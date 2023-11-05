@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #1C1C1C;
+}
+
+main{
+    position: relative;
+    width: 650px;
+    height: 550px;
+    border-radius: 5px;
+    background-color: #F5F7FB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    width: 399px;
+    border: 0.794239px solid #DBDEF0;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quizz-title{
+    font-family: 'Karla';
+    font-size: 31.25px;
+    text-align: center;
+    color: #293264;
+}
+
+.quizz-start{
+    margin-top: 10px;
+    width: 193px;
+    height: 52px;
+    background: #4D5B9E;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    color: #F5F7FB;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.quizz-start:hover{
+    box-shadow: 2px 2px 2px rgba(183, 59, 59, 0.59);
+}
+
+/* quizz Question */
+
+.quizz-question{
+    font-family: 'Karla';
+    color: #293264;
+}
+
+.quizz-options{
+    cursor: pointer;
+    padding: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #293264;
+    border: 0.794239px solid #4D5B9E;
+    border-radius: 7.94239px;
+    margin: 0px 10px;
+}
+.quizz-options:hover{
+    background-color: #D6DBF5;
+}
+
+.quizz-options-container{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.quizz-footer{
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    align-items: baseline;
+}
+
+.quizz-validate{
+    cursor: pointer;
+    width: 120px;
+    height: 35px;
+    background: #4D5B9E;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-align: center;
+    color: #F5F7FB;
+    border: none;
+}
+
+
+.selected-answer{
+    background-color: #D6DBF5;
+    border-radius: 7px;
+    
+}
+
+.quizz-correct{
+    background-color: #94D7A2;
+    border-radius: 7px;
+}
+
+
+.quizz-incorrect{
+    background: #F8BCBC;
+}
+
+
+.quizz-notice{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 12.8px;
+    line-height: 15px;
+    color: #293264;
+    margin-right: 40px;
+}
+
